@@ -1,11 +1,10 @@
-import { SearchParamProps } from '@/types'
+import { SearchParamProps,FileType  } from '@/types'
 import React from 'react'
 import Sort from '@/components/Sort'
 import { getFiles } from '@/lib/actions/file.actions';
 import { Models } from 'node-appwrite';
 import Card from '@/components/Card';
 import { getFileTypesParams } from "@/lib/utils";
-import { FileType } from '@/types';
 
 const page = async ({searchParams, params }: SearchParamProps) => {
     const type = ((await params)?.type as string) || "";
