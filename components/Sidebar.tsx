@@ -27,12 +27,12 @@ const Sidebar = ({ fullName, avatar, email }: Props) => {
         />
 
         <Image
-          src="/assets/icons/logo-brand.png"
-          alt="logo"
-          width={52}
-          height={52}
-          className="lg:hidden"
-        />
+                src="/assets/icons/cclogo.svg"
+                alt="logo"
+                width={120}
+                height={52}
+                className="lg:hidden"
+              />
       </Link>
 
       <nav className="sidebar-nav">

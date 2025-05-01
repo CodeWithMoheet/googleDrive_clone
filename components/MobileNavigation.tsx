@@ -38,7 +38,7 @@ const MobileNavigation = ({
   return (
     <header className="mobile-header">
       <Image
-        src="/assets/icons/logo-full-brand.svg"
+        src="/assets/icons/cclogo.svg"
         alt="logo"
         width={120}
         height={52}
@@ -109,7 +109,7 @@ const MobileNavigation = ({
               onClick={async () => await signOutUser()}
             >
               <Image
-                src="/assets/icons/logout.svg"
+                src="/assets/icons/logout.png"
                 alt="logo"
                 width={24}
                 height={24}
